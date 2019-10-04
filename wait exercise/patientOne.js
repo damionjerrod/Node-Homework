@@ -1,3 +1,8 @@
-var msg = function slowPoke(){
-console.log("Stop saying Hello already!");
-};
+var waitForIt = require('./myinterval.js');
+
+function willItCount() {
+    console.log("Pending...");
+    return waitForIt;
+}
+
+willItCount();
