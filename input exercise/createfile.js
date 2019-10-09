@@ -14,7 +14,7 @@ function createFile() {
     return e;
 }
 
-//Here's the emitter!
+//Here's the emitter.
 var createIt = createFile();
 
 createIt.on('theProcess', function() {
