@@ -1,3 +1,4 @@
+//"Read File" Event Emitter.
 var fs = require('fs');
 var emitter = require('events').EventEmitter;
 
